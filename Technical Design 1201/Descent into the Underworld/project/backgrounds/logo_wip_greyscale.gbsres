@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "542ced26-ba60-4eba-86bd-1478f3d69e6f",
+  "name": "logo_wip_greyscale",
+  "symbol": "bg_logo_wip_greyscale",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "logo_wip_greyscale.png",
+  "tileColors": "",
+  "autoColor": false
+}

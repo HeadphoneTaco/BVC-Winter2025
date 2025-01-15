@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "de087d15-2d13-4e47-85e5-355f2006809d",
+  "_index": 15,
+  "name": "P5App",
+  "backgroundId": "48f2c4be-5388-4445-91b4-3a69087f94b3",
+  "tilesetId": "",
+  "width": 77,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00ea+0f!004c+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!004c+0f!0012+0f31+009+0f!004c+0f!004c+0f!00e+0f3c+002+0f!0049+0f!002+0f!0049+0f!002+0f!0049+0f!002+0f!003+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 3944,
+  "y": 744,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,66 @@
+{
+  "_resourceType": "actor",
+  "id": "149270c1-e556-432b-b272-5659d91e97f1",
+  "name": "Hidden Stairs",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "81b14fe6-2235-480e-bc3b-a5899aa66afe",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 2,
+  "symbol": "actor_42",
+  "x": 11,
+  "y": 12,
+  "script": [],
+  "startScript": [
+    {
+      "id": "b04f7e45-bb98-496c-841c-b14ba62bdd51",
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "id": "66524fab-e724-4ab3-a1e7-fea3512b8ca8",
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ],
+        "false": [
+          {
+            "id": "9da6c1ed-468c-43f3-a9f4-e3ad22e77972",
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "$self$"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

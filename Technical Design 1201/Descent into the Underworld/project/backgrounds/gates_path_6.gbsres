@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1f21c565-3473-4a50-be51-8e8dc0b38d41",
+  "name": "gates_path_6",
+  "symbol": "bg_gates_path_6",
+  "width": 108,
+  "height": 18,
+  "imageWidth": 864,
+  "imageHeight": 144,
+  "filename": "gates_path_6.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "33ecea01-23c8-4d22-b558-32401c239cd1",
+  "name": "gate_choice_path",
+  "symbol": "bg_gate_choice_path",
+  "width": 119,
+  "height": 18,
+  "imageWidth": 952,
+  "imageHeight": 144,
+  "filename": "gate_choice_path.png",
+  "tileColors": "",
+  "autoColor": false
+}

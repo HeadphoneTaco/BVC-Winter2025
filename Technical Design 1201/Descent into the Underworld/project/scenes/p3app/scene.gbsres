@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "e3793f56-ff5b-4593-a512-7d4714dd9fcc",
+  "_index": 13,
+  "name": "P3App",
+  "backgroundId": "5402d352-c48b-4c51-91c5-34f0b31bef6a",
+  "tilesetId": "",
+  "width": 77,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00ea+0f!004c+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!006+0f!0045+0f!004c+0f!001c+0f9+00b+0f9+0013+0f!004c+0f!004c+0f!00e+0f3c+002+0f!0049+0f!002+0f!0049+0f!002+0f!0049+0f!002+0f!003+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 1576,
+  "y": 728,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

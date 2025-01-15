@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "9a2ceba5-c0a2-4e28-9c53-9ccb671a4676",
+  "_index": 5,
+  "name": "caves/P2",
+  "backgroundId": "02865bab-9d2a-4763-a08c-3e9753fba7df",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00c3+0f1a+006+0f!00b+0f2+007+0f2+002+0f!006+0f!00b+0f2+007+0f2+002+0f!006+0f!002+0f2+0014+0f!006+0f!002+0f2+0014+0f!006+0f!0018+0f!006+0f!0018+0f!006+0f!0018+0f!006+0f!00d+0f2+009+0f!006+0f!00d+0f2+009+0f!006+0f!004+0f2+0012+0f!006+0f!004+0f2+0012+0f!006+0f15+002+0f3+004+0f17+002+0f5+002+0f!001c+0f!002+0f!001c+0f!002+0f!00f+0f4+002+0f4+003+0f!002+0f!00d+0f6+002+0f4+003+0f!002+0f!00d+0f4+006+0f2+003+0f!002+0f!00d+0f4+006+0f2+00!0f3+002+0f!00d+0f4+006+0f2+00!0f3+002+0f!00f+0f2+006+0f2+003+0f!002+0f!00f+0f2+006+0f2+00!0f3+002+0f!00f+0f2+006+0f2+00!0f3+002+0f14+002+0f8+0015+0f!002+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 984,
+  "y": 984,
+  "script": [
+    {
+      "id": "b4e354d3-2dcc-428b-b5d2-ad7f6144c6ea",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
+        "__name": "Init Menu"
+      },
+      "children": {
+        "script": []
+      },
+      "__type": "event"
+    },
+    {
+      "id": "fea85efe-490e-45a8-8b66-bf27ef3072f0",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b64b574c-2ba2-428f-925f-8aff5a299af2",
+        "loop": true
+      }
+    },
+    {
+      "id": "3ef9ae09-cfc6-407c-939f-def17e220568",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Fix Game Breaking Bug",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "21218b4e-46d7-4767-a63d-1d56abfc2312",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "16",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "16"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "0429bb13-edfc-459d-8d7e-783e07675e68",
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "15825f54-6747-46f3-8f4f-982964d07980",
+                    "x": {
+                      "type": "number",
+                      "value": 24
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 15
+                    }
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

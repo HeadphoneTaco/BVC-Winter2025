@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "049e43e9-c1da-41b1-abe3-1e40e2020314",
+  "name": "underground_5_7",
+  "symbol": "bg_underground_5_7",
+  "width": 88,
+  "height": 88,
+  "imageWidth": 704,
+  "imageHeight": 704,
+  "filename": "underground_5_7.png",
+  "tileColors": "",
+  "autoColor": false
+}

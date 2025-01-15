@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "2f758502-6d5d-408e-9563-5c7a4057290f",
+  "_index": 21,
+  "name": "caves/Beads",
+  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 1768,
+  "y": 1568,
+  "script": [
+    {
+      "id": "341ac1fa-c48f-47e4-929f-858e5b5af292",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
+        "__name": "Init Menu"
+      },
+      "children": {
+        "script": []
+      },
+      "__type": "event"
+    },
+    {
+      "id": "a10ad920-b20c-40b7-bd1e-d6f7108cd249",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
+        "loop": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

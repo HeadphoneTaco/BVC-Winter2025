@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "8b145ec1-5dc1-4c27-b616-2113197c13d6",
+  "name": "Rock 3",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 2,
+  "symbol": "actor_33",
+  "x": 23,
+  "y": 27,
+  "script": [
+    {
+      "id": "ccf73641-a74f-4b7e-a5fe-a25aa5c99e49",
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

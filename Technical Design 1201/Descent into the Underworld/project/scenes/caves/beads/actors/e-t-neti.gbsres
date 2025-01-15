@@ -1,0 +1,59 @@
+{
+  "_resourceType": "actor",
+  "id": "e20d7838-c696-4d2f-9fcf-67e17b2933d4",
+  "name": "E-T-Neti",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_80",
+  "x": 9,
+  "y": 7,
+  "script": [
+    {
+      "id": "28abb5e1-ff46-4066-8893-88824a7b8858",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "It's dangerous to\ngo without docs."
+      }
+    },
+    {
+      "id": "d36cc6f2-c6a0-4283-98c7-a91e5888d839",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Check out\ngbstudio.dev/docs"
+      }
+    },
+    {
+      "id": "0dafb764-d89e-4135-bfb1-0beea73a7a3f",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Also, try moving\nthe rock outside."
+      }
+    },
+    {
+      "id": "5eaf5c5c-483f-4856-835b-563842cb4675",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "true"
+        }
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

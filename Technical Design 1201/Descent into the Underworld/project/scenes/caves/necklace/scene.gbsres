@@ -1,0 +1,45 @@
+{
+  "_resourceType": "scene",
+  "id": "74b8e590-f5d8-4a81-b57a-98aae229ba06",
+  "_index": 20,
+  "name": "caves/Necklace",
+  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_24",
+  "x": 1048,
+  "y": 1424,
+  "script": [
+    {
+      "id": "ff2f5705-5cd1-4c41-b0d9-f0ca56d29bae",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
+        "__name": "Init Menu"
+      },
+      "children": {
+        "script": []
+      },
+      "__type": "event"
+    },
+    {
+      "id": "2566420f-0852-4349-90ec-8294c06c2ee3",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a48b4a96-9a5a-4511-b38a-98d56dd996ba",
+        "loop": true
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

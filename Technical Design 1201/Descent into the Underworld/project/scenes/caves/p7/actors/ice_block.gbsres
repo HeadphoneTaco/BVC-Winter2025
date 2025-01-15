@@ -1,0 +1,120 @@
+{
+  "_resourceType": "actor",
+  "id": "0e30bace-ed13-4492-ae25-33fc5d33cedf",
+  "name": "Ice Block",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "09ad70c6-3ce5-4b97-9e96-466221418a45",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 2,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "symbol": "actor_46",
+  "x": 80,
+  "y": 71,
+  "script": [
+    {
+      "id": "c8cfa410-71af-454b-b351-a81386c3dcb0",
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "0e30bace-ed13-4492-ae25-33fc5d33cedf",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "__collapse": false,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "id": "210d85e6-a969-47a6-87a2-18fd9e8e3018",
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": true
+            }
+          },
+          {
+            "id": "9ea8ff33-ee94-49c2-bca0-6f677cd31e3b",
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "0e30bace-ed13-4492-ae25-33fc5d33cedf",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "7d8c3488-d60a-415e-b7bd-46aa3f1bf778",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": "Success!"
+                  }
+                },
+                {
+                  "id": "a8a1a9b9-8234-4e5b-a5cf-a34c9be219d1",
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "true"
+                    }
+                  }
+                },
+                {
+                  "id": "6ed07e30-c5a3-4949-9629-d97abe54d6e0",
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "4eed6c49-2822-4edd-a18b-a7754227a220"
+                  }
+                },
+                {
+                  "id": "343ef568-1e72-4423-8011-15a93aae7ead",
+                  "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                  "args": {
+                    "actorId": "4eed6c49-2822-4edd-a18b-a7754227a220"
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "6857d5a3-9938-4b53-8d8d-d76f59075814",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "16",
+        "__collapse": false,
+        "value": {
+          "type": "true"
+        }
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

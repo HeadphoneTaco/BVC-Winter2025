@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "2fc86b98-a039-4dbc-9387-f5854378015d",
+  "_index": 8,
+  "name": "caves/P5",
+  "backgroundId": "713f8582-c4e1-4ef0-8d1f-9f97ff17b4fb",
+  "tilesetId": "",
+  "width": 88,
+  "height": 88,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "444c886c-6214-48d7-8e3c-4dca4f65dec7"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "001bb+0f53+005+0f53+005+0f!00b+0f2+007+0f2+003b+0f2+004+0f!00b+0f2+007+0f2+003b+0f2+004+0f!002+0f2+004d+0f2+004+0f!002+0f2+004d+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!00d+0f2+0042+0f2+004+0f!00d+0f2+0042+0f2+004+0f!004+0f2+004b+0f2+004+0f!004+0f2+004b+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f!0051+0f2+004+0f4d+002+0f5+003+0f4e+002+0f5+003+0f2+0050+0f2+004+0f2+0050+0f2+004+0f2+0050+0f2+004+0f2+0050+0f2+004+0f2+0045+0f3+004+0f5+005+0f2+0045+0f3+004+0f5+005+0f2+0045+0f2+006+0f2+007+0f2+0045+0f2+006+0f2+007+0f2+0045+0f2+006+0f2+007+0f2+0045+0f2+006+0f2+007+0f2+0045+0f2+006+0f2+007+0f49+006+0f2+007+0f48+00!0f2+002+0f2+0011+0f3+0026+0f4+0014+0f2+002+0f2+007+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 3880,
+  "y": 1200,
+  "script": [
+    {
+      "id": "5e62308d-7ec8-4f03-8057-369dbd836272",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc9f67e9-b6f2-4216-b8b6-63505f3b7118",
+        "__name": "Init Menu"
+      },
+      "children": {
+        "script": []
+      },
+      "__type": "event"
+    },
+    {
+      "id": "1e344799-d706-4339-bbec-6ad9fad1d7fc",
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b64b574c-2ba2-428f-925f-8aff5a299af2",
+        "loop": true
+      }
+    },
+    {
+      "id": "881f7b3d-8ecf-418c-a155-eb06c38b747b",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Fix Game Breaking Bug",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "d1ad39a8-6fdd-4c3d-9a5c-cbaf5bc63b07",
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "16",
+              "__collapseElse": true,
+              "__disableElse": true,
+              "condition": {
+                "type": "variable",
+                "value": "16"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "eb105976-5d84-4e5f-bff8-cc85935555af",
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "10736f77-3dbf-4635-a2b4-c8b757f5ef21",
+                    "x": {
+                      "type": "number",
+                      "value": 24
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 15
+                    }
+                  }
+                }
+              ],
+              "false": []
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

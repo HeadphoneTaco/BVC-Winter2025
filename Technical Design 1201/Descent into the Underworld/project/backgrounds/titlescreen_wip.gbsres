@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c6a73bdf-ab13-4c1b-9779-ecf68ddf2ce0",
+  "name": "titlescreen_wip",
+  "symbol": "bg_titlescreen_wip",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "titlescreen_wip.png",
+  "tileColors": "",
+  "autoColor": false
+}

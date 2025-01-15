@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7973b5d7-9877-4a0d-8e10-dc631fd4e440",
+  "_index": 16,
+  "name": "P6App",
+  "backgroundId": "1f21c565-3473-4a50-be51-8e8dc0b38d41",
+  "tilesetId": "",
+  "width": 108,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00147+0f!0065+0f!005+0f!0065+0f!005+0f!0065+0f!005+0f!0065+0f!005+0f!0065+0f!005+0f!0065+0f!005+0f!0065+0f!006b+0f!0011+0f4f+00b+0f!006b+0f!006b+0f!00d+0f5c+002+0f!0068+0f!002+0f!0068+0f!002+0f!0068+0f!002+0f!002+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 5408,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

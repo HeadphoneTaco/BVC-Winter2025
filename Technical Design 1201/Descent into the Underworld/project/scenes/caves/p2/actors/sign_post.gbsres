@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "13384ceb-8241-490c-b5d6-5240d2d860e7",
+  "name": "Sign Post",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_31",
+  "x": 7,
+  "y": 25,
+  "script": [
+    {
+      "id": "b65b222e-28a7-4c0e-a377-41fa36714df8",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Try to get the ice\nblock to the mark."
+      }
+    },
+    {
+      "id": "a93342f0-e575-45c5-808e-306e851624eb",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "If you get stuck,\nI'll reset it!"
+      }
+    },
+    {
+      "id": "fcd38bc0-fcb4-4adf-9853-e5979263b52a",
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "15825f54-6747-46f3-8f4f-982964d07980",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 18
+        }
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

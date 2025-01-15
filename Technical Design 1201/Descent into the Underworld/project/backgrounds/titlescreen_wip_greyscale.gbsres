@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "149563e4-446b-4d1e-b05b-73c0e480bf62",
+  "name": "titlescreen_wip_greyscale",
+  "symbol": "bg_titlescreen_wip_greyscal",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "titlescreen_wip_greyscale.png",
+  "tileColors": "",
+  "autoColor": false
+}
