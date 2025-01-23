@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "a96b8dc2-a7af-4b90-bf63-461b7ad1cc72",
+  "name": "",
+  "prefabId": "",
+  "x": 33,
+  "y": 0,
+  "symbol": "trigger_47",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 14,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hello Inanna"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cfda22bb-35e4-4037-b550-07e18af1555c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}
