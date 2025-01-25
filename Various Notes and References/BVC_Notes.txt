@@ -9,6 +9,40 @@
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
+        Console.WriteLine("Welcome to the game! You are a brave adventurer on a quest to defeat the evil dragon. You come across a fork in the road. Which path will you take?" +
+            "\n1. The path to the left" +
+            "\n2. The path to the right" +
+            "\n3. The path straight ahead" +
+            "\n4. The path behind you");
+        int answer = int.Parse(Console.ReadLine());
+        string classtype = "None";
+        switch (answer)
+        {
+            case 1:
+                PerformStrengthCheck();
+                break;
+            case 2:
+                PerformDexterityCheck();
+                break;
+            case 3:
+                PerformIntelligenceCheck();
+                break;
+            case 4:
+                PerformWisdomCheck();
+                break;
+            default:
+                Console.WriteLine("Hmmmmmm, you picked nothing . Well done!");
+                break;
+        }
+
+    }
+}
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+
 
 
 

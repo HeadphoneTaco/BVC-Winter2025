@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 89235848ae5d181429fcb8340a0499e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4972041879622225315
+    second: RoguelikeSprites@256_0
+  - first:
+      213: -1853355905733531582
+    second: RoguelikeSprites@256_1
+  - first:
+      213: 1846281597544707073
+    second: RoguelikeSprites@256_2
+  - first:
+      213: -8074792933788202606
+    second: RoguelikeSprites@256_3
+  - first:
+      213: -1463271325904473534
+    second: RoguelikeSprites@256_4
+  - first:
+      213: -546826548509867551
+    second: RoguelikeSprites@256_5
+  - first:
+      213: -2724552098887985187
+    second: RoguelikeSprites@256_6
+  - first:
+      213: -1106572020227709392
+    second: RoguelikeSprites@256_7
+  - first:
+      213: 3109450321020194902
+    second: RoguelikeSprites@256_8
+  - first:
+      213: -3119185061645979538
+    second: RoguelikeSprites@256_9
+  - first:
+      213: -1267514785364679182
+    second: RoguelikeSprites@256_10
+  - first:
+      213: -7949313177418818050
+    second: RoguelikeSprites@256_11
+  - first:
+      213: 201981845559791651
+    second: RoguelikeSprites@256_12
+  - first:
+      213: 2677156868348890593
+    second: RoguelikeSprites@256_13
+  - first:
+      213: -1643561342086959664
+    second: RoguelikeSprites@256_14
+  - first:
+      213: 5073762164517791422
+    second: RoguelikeSprites@256_15
+  - first:
+      213: 7214320609226101063
+    second: RoguelikeSprites@256_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 192
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad8f3b1fbd300540800000000000000
+      internalID: 4972041879622225315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248616c8f9e8746e0800000000000000
+      internalID: -1853355905733531582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 189
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1043ef8b45f4f9910800000000000000
+      internalID: 1846281597544707073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 191
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29948badb9290ff80800000000000000
+      internalID: -8074792933788202606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 126
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242f2795b7a61bbe0800000000000000
+      internalID: -1463271325904473534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 127
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1015eb6284968f0800000000000000
+      internalID: -546826548509867551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 126
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd79cb52d42703ad0800000000000000
+      internalID: -2724552098887985187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 126
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036e0f74c9aa4a0f0800000000000000
+      internalID: -1106572020227709392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6501227a79cf62b20800000000000000
+      internalID: 3109450321020194902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 65
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60f2eb66bd66b4d0800000000000000
+      internalID: -3119185061645979538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 65
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f568cea402e86ee0800000000000000
+      internalID: -1267514785364679182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_11
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 71
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd9e9b48cd5ea190800000000000000
+      internalID: -7949313177418818050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 64
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3205bab1b659dc200800000000000000
+      internalID: 201981845559791651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edcee1dcfb272520800000000000000
+      internalID: 2677156868348890593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_14
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dda756daa5e039e0800000000000000
+      internalID: -1643561342086959664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb666e28ecf996640800000000000000
+      internalID: 5073762164517791422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoguelikeSprites@256_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74193b8fe5a6e1460800000000000000
+      internalID: 7214320609226101063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RoguelikeSprites@256_0: 4972041879622225315
+      RoguelikeSprites@256_1: -1853355905733531582
+      RoguelikeSprites@256_10: -1267514785364679182
+      RoguelikeSprites@256_11: -7949313177418818050
+      RoguelikeSprites@256_12: 201981845559791651
+      RoguelikeSprites@256_13: 2677156868348890593
+      RoguelikeSprites@256_14: -1643561342086959664
+      RoguelikeSprites@256_15: 5073762164517791422
+      RoguelikeSprites@256_16: 7214320609226101063
+      RoguelikeSprites@256_2: 1846281597544707073
+      RoguelikeSprites@256_3: -8074792933788202606
+      RoguelikeSprites@256_4: -1463271325904473534
+      RoguelikeSprites@256_5: -546826548509867551
+      RoguelikeSprites@256_6: -2724552098887985187
+      RoguelikeSprites@256_7: -1106572020227709392
+      RoguelikeSprites@256_8: 3109450321020194902
+      RoguelikeSprites@256_9: -3119185061645979538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

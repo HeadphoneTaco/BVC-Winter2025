@@ -1,0 +1,16 @@
+
+
+
+public bool PerformCheck()
+{
+    int Modifier = 3;
+    int Check = () + Modifier;
+    if (Check >= 10) // Assuming DC 10 for success
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
