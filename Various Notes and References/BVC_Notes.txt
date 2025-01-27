@@ -39,6 +39,19 @@
 }
 
 
+public class GameMode
+    {
+        static ChooseDifficulty()
+        {
+            Console.WriteLine("Choose difficulty level: Easy, Medium, Hard");
+            string difficulty = Console.ReadLine();
+            Console.WriteLine($"You have chosen {difficulty} difficulty.");
+        }
+        
+    }
+
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
