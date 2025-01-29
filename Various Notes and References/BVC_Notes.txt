@@ -1,62 +1,146 @@
 
+//Create a class named 'Choice'
+    class Choice
+    {
+        // Create a field named 'Response'
+        public int? Response;
+        // Create a constructor for the class named 'Choice'
+        public Choice()
+        {
+            // Set initial value for int named 'Response'
+            Response = null;
+        }
+    }
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+// Create a class named 'Dice'
+    class Dice
+    {
+        // Create new instance of class named 'Random', with 'RandomRoll' as a field
+        static Random RandomRoll = new();
+        
+        // Has to be static, because ''''reasons''''
+        public static int Roll(int sides)
+        {
+            int roll = RandomRoll.Next(1, sides + 1);
+            // Randomizes a number between 1 and the number of sides
+            return roll;
+        }
+    }
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+
+//Create a class named 'DnD'
+    class DnD
+    {
+        // Create field named 'Scenario1'
+        public string Scenario1;
+        // Create a constructor for the class named 'DnD'
+        public DnD()
+        {
+            // Set initial value for string named 'Scenario1' 
+            Scenario1 = "You encounter a hostile creature. You will only get one move before they attack you. To the right, there is a rickety bridge; hanging above them are a pile of rocks.\\nChoose from the following options:\\n1) Try to cross the bridge\\n2) Try to knock down the pile of rocks\\n3) Reason with the creature\\n4) Attack";
+        }
+    }
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
+    
+    
+    //Create a class named 'Outcome'
+    class Outcome
+    {
+        // Create fields named 'Success' and 'Failure' 
+        public string Success;
+        public string Failure;
+        // Create a constructor for the class named 'Outcome
+        public Outcome()
+        {
+            // Set initial value for strings named 'Success' and 'Failure'
+            Success = "Wait a minute";
+            Failure = "That's not correct";
+        }
+    }
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+// Create an object of the Choice Class named 'decision' (This will call the constructor)
+    Choice decision = new Choice();
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Scenario2 = "You and your party are walking along a lonely and foggy road at dusk. The road you are travelling on is littered with many large stones. Suddenly, a Sphinx appears before you. The Sphinx declares that you must answer its riddle to continue along this road. One of your Party members whispers to you: 'I think it can only hear us, both of its eyes seems to be gouged out'.\\nChoose from the following options:\\n1) You choose to return back down the road you came. You somehow sense that the Sphinx has motives besides a simple riddle\\n2) After some contemplation, you decide to ask the Sphinx its riddle. Your party members are visibly nervous\\n3) Walking forward carefully, you reach down for a large rock and attempt to throw it off the road the distract the Sphinx\\n4) After some hurried whispers, you and your party members decide to attempt to sneak past the presumed blind Sphinx while holding your breath.";
+        
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
-        Console.WriteLine("Welcome to the game! You are a brave adventurer on a quest to defeat the evil dragon. You come across a fork in the road. Which path will you take?" +
-            "\n1. The path to the left" +
-            "\n2. The path to the right" +
-            "\n3. The path straight ahead" +
-            "\n4. The path behind you");
-        int answer = int.Parse(Console.ReadLine());
-        string classtype = "None";
-        switch (answer)
+if (int.TryParse(Console.ReadLine(), out int input))
+    {
+        // Process the input
+        switch (input)
         {
             case 1:
-                PerformStrengthCheck();
-                break;
-            case 2:
-                PerformDexterityCheck();
-                break;
-            case 3:
-                PerformIntelligenceCheck();
-                break;
-            case 4:
-                PerformWisdomCheck();
-                break;
-            default:
-                Console.WriteLine("Hmmmmmm, you picked nothing . Well done!");
-                break;
+                Console.WriteLine("");
         }
-
     }
-}
-
-
-public class GameMode
+    else
     {
-        static ChooseDifficulty()
-        {
-            Console.WriteLine("Choose difficulty level: Easy, Medium, Hard");
-            string difficulty = Console.ReadLine();
-            Console.WriteLine($"You have chosen {difficulty} difficulty.");
-        }
+        Console.WriteLine("Invalid input. Please enter a number.");
         
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+// Create a class named 'PerformCheck'
+    class PerformCheck
+    {
+        bool DexCheck()
+        {
+            int dexterityCheck = Dice.Roll(20) + (int)SkillModifier.Dexterity;
+            return dexterityCheck >= 10;
+        }
+        bool StrengthCheck()
+        {
+            int strengthCheck = Dice.Roll(20) + (int)SkillModifier.Strength;
+            return strengthCheck >= 10;
+        }
+        bool CharismaCheck()
+        {
+            int charismaCheck = Dice.Roll(20) + (int)SkillModifier.Charisma;
+            return charismaCheck >= 10;
+        }
+        bool AttackCheck()
+        {
+            int attackCheck = Dice.Roll(20) + (int)SkillModifier.Attack;
+            return attackCheck >= 10;
+        }
+        bool WisdomCheck()
+        {
+            int wisdomCheck = Dice.Roll(20) + (int)SkillModifier.Wisdom;
+            return wisdomCheck >= 10;
+        }
+        bool IntelligenceCheck()
+        {
+            int intelligenceCheck = Dice.Roll(20) + (int)SkillModifier.Intelligence;
+            return intelligenceCheck >= 10;
+        }
+        bool ConstitutionCheck()
+        {
+            int constitutionCheck = Dice.Roll(20) + (int)SkillModifier.Constitution;
+            return constitutionCheck >= 10;
+        }
     }
 
-
-
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-
-
-
-
+enum SkillModifier
+    {
+        Strength,
+        Dexterity,
+        Constitution,
+        Intelligence,
+        Wisdom,
+        Charisma,
+        Attack
+    }
 

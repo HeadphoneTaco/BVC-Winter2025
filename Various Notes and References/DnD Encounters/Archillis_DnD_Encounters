@@ -1,0 +1,115 @@
+
+Console.WriteLine("welcome to... ");
+    Console.WriteLine("Dungeons" + "&" + "Dragons!");
+    Console.WriteLine("What will your name be?");
+    Console.ReadLine();
+    string userName = Console.ReadLine();
+    Console.Clear();
+
+    //userInput is the variable for your username
+
+Console.WriteLine("Choose your Class!");
+
+Console.WriteLine("Fighter : 1");
+Console.WriteLine("Paladin : 2");
+Console.WriteLine("Mage : 3");
+Console.WriteLine("Ranger : 4");
+Console.WriteLine("Cleric : 5");
+Console.WriteLine("Druid : 6");
+Console.WriteLine("Bard : 7");
+
+string userInput = Console.ReadLine();
+int answer = int.Parse(userInput);// this basically uses userinput and changes it into a number, which then takes the number used and correlates it to case number
+string classes = null;
+
+ switch (answer)
+
+{
+    case 1:
+        classes = "Fighter";
+        break;
+    case 2:
+        classes = "Paladin";
+        break;
+    case 3:
+        classes = "Mage";
+        break;
+    case 4:
+        classes = "Ranger";
+        break;
+    case 5:
+        classes = "Cleric";
+        break;
+    case 6:
+        classes = "Druid";
+        break;
+    case 7:
+        classes = "Bard";
+        break;
+    
+    default : Console.WriteLine("You have not chosen a valid answer.");
+        break;
+}
+
+ Console.Clear();
+
+ Console.WriteLine("Would you Like to create a Randomized Character?");
+Console.WriteLine("yes? or no?");
+Console.ReadLine();
+String choice = Console.ReadLine().ToLower();
+
+    Random Brandom = new Random();
+
+    int Randomizer()
+    {
+        int randomizer = Brandom.Next(1, 7);
+        return randomizer;
+    }
+
+    int StatCreation()
+    {
+        int[] RollList = new int[4];
+
+        for (int i = 0; i < 4; i++)
+        {
+            int StatRandomizer = Randomizer();
+            RollList[i] = StatRandomizer;
+        }
+
+        int GarboStatPoints = RollList.Min();
+
+        int TotalStatPoints = RollList[0] + RollList[1] + RollList[2] + RollList[3];
+        int ActualStatPoint = TotalStatPoints - GarboStatPoints;
+
+        return ActualStatPoint;
+
+    }
+    int Strength = StatCreation();
+    int Dexterity = StatCreation();
+    int Wisdom = StatCreation();
+    int Charisma = StatCreation();
+    int Intellect = StatCreation();
+    int Constitution = StatCreation();
+    int Attack = StatCreation();
+
+    Console.WriteLine("class : " + classes);
+    Console.WriteLine("____________________________");
+    Console.WriteLine("Your Statpoints are!");
+    Console.WriteLine("strength : " + Strength);
+    Console.WriteLine("dexterity: " + Dexterity);
+    Console.WriteLine("wisdom : " + Wisdom);
+    Console.WriteLine("charisma : " + Charisma);
+    Console.WriteLine("intellect : " + Intellect);
+    Console.WriteLine("constitution : " + Constitution);
+    Console.WriteLine("Attack : " + Attack);
+    Console.WriteLine("____________________________");
+    
+    Console.ReadLine();
+
+
+    string scenario =
+        "You encounter a hostile creature. You will only get one move before they attack you. To the right, there is a rickety bridge; hanging above them are a pile of rocks.\\nChoose from the following options:\\n1) Try to cross the bridge\\n2) Try to knock down the pile of rocks\\n3) Reason with the creature\\n4) Attack";
+
+   
+
+    
