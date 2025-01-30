@@ -2,9 +2,16 @@
 
 public class Room
 {
-    public string roomName;
-    public string rooomDescription;
-    public string investigationDescription;
+    private string _roomName;
+    public string roomDescription;
+    public string explorationDescription;
     private Dictionary<string, Room> adjacentRooms = new Dictionary<string, Room>();
-    // List of items
+    
+    // List of items within the room
+
+    public Room(string roomName)
+    {
+        _roomName = roomName;
+    }
+    
 }
