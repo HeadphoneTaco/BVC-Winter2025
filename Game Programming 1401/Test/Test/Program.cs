@@ -69,8 +69,5 @@
                 }
             }
         }
-        {
-            Console.WriteLine("Invalid input. Please enter a valid integer number.");
-        }
-    }
-}
+        
+    
