@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// Generate a random number from 1 - 100
+// Generate a random number from 1 to 100
 int randomNumber = new Random().Next(1, 101);
 
     bool playingGame = true;
