@@ -1,77 +1,76 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Link is given a certain amount of Rupees
+// Return the amount of Silver/Purple/Red/Yellow/Blue/Green rupees as a return
+//In groups of 3, work together to figure out how to make this work
+// Hint: the modulus operator (%) can be useful for returning a remainder
+// Silver = 100
+// Purple = 50
+// Red = 20
+// Yellow = 10
+// Blue = 5
+// Green = 1
 
-// Generate a random number from 1 to 100
-int randomNumber = new Random().Next(1, 101);
+// Example: 28 rupees will return a red, blue, and 3 green rupees
 
-    bool playingGame = true;
-    int numberOfGuesses = 0;
-    int guessesRemaining = 10;
-
-
-
-while (playingGame)
-{
-        
-    
-    
-    
-    // Ask the player to guess a number within this range
-    Console.WriteLine("Guess a number between 1 - 100");
-    guessesRemaining--;
-    if (int.TryParse(Console.ReadLine(), out int guessedNumber))
-    {
-        // This was a valid number!
-        
-        Console.WriteLine($"You Guessed: {guessedNumber}");
-        if (guessedNumber > randomNumber)
+        enum Rupees
         {
-            Console.WriteLine("You guessed too high!");
-            CheckGuessesRemaining();
-        }
-        else if (guessedNumber < randomNumber)
-        {
-            Console.WriteLine("You guessed too low!");
-            CheckGuessesRemaining();
-        }
-        else
-        {
-            Console.WriteLine($"You guessed correctly in {numberOfGuesses} guesses!");
-            playingGame = false;
+            Silver = 100,
+            Purple = 50,
+            Red = 20,
+            Yellow = 10,
+            Blue = 5,
+            Green = 1
         }
         
+        class Program
+        {
+            static void Main()
+            {
+                // Get the rupee denominations and names from the enumeration
+                int[] rupeeValues = (int[])Enum.GetValues(typeof(Rupees));
+                string[] rupeeNames = Enum.GetNames(typeof(Rupees));
         
+                // Initialize a dictionary to store the count of each rupee type
+                Dictionary<string, int> rupeeCount = new Dictionary<string, int>();
+        
+                // Initialize the dictionary with zero counts
+                foreach (var name in rupeeNames)
+                {
+                    rupeeCount[name] = 0;
+                }
+        
+                // Prompt the user for the total amount of rupees
+                Console.WriteLine("How many Rupees, as an integer number, has Link been given?");
+                int rupeeAmount;
+                if (int.TryParse(Console.ReadLine(), out rupeeAmount))
+                {
+                    // Iterate through the rupee denominations
+                    for (int i = 0; i < rupeeValues.Length; i++)
+                    {
+                        int value = rupeeValues[i];
+                        string name = rupeeNames[i];
+        
+                        // Calculate the count of the current rupee type
+                        rupeeCount[name] = rupeeAmount / value;
+        
+                        // Update the total amount
+                        rupeeAmount %= value;
+                    }
+        
+                    // Output the result
+                    Console.WriteLine("Link has been given the following rupees:");
+                    foreach (var kvp in rupeeCount)
+                    {
+                        Console.WriteLine($"{kvp.Value} {kvp.Key} rupees");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid integer number.");
+                }
+            }
+        }
+        {
+            Console.WriteLine("Invalid input. Please enter a valid integer number.");
+        }
     }
-    else
-    {
-        //Was NOT a valid number
-        Console.WriteLine("Not a valid number! \n Please enter a valid number!");
-    }
-    
 }
-
-void CheckGuessesRemaining()
-{
-    if (guessesRemaining == 0)
-    {
-        Console.WriteLine("Out of guesses!");
-        playingGame = false;
-    }
-    else
-    {
-        Console.WriteLine($"You have {guessesRemaining} guesses left!");
-    }
-}
-    
-    
-    
-    
-    // Display result of the number guess based on these conditions
-    
-    
-    // IF correct, inform the player, end the game
-        
-        // IF incorrect, inform the player the number was higher or lower than the correct number
-            // THEN loop back and get the player to guess again
-    
-    
-    
