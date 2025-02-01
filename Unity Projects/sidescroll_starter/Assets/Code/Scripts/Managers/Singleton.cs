@@ -14,7 +14,7 @@ namespace Code.Scripts.Managers
             {
                 if (_instance == null)
                 {
-                    _instance = FindObjectOfType<T>();
+                    _instance = FindFirstObjectByType<T>();
                     if (_instance == null)
                         Setup();
                 }
@@ -34,7 +34,7 @@ namespace Code.Scripts.Managers
         }
         private static void Setup()
         {
-            _instance = FindObjectOfType<T>();
+            _instance = FindFirstObjectByType<T>();
             if (_instance == null)
             {
                 GameObject gameObj = new GameObject();
