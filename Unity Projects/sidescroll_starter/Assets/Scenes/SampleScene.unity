@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultSpawn: {fileID: 718725988}
-  _playerPrefab: {fileID: 4881846652811120294, guid: bf541f4218b63604bb3540326750c552, type: 3}
+  _playerPrefab: {fileID: 4881846652811120294, guid: 6fa084da830f28f43990fe0931eb8f59, type: 3}
 --- !u!1 &1481576027
 GameObject:
   m_ObjectHideFlags: 0
