@@ -1,0 +1,6 @@
+The graphics were smoothly animated with 8 frames, 
+They should be displayed at a speed of: 
+16FPS / 80ms/frame 
+or 
+12FPS / 60ms/frame. 
+Make sure to use the right timing within your engine, like always with 2d animation there is a bit of wiggle room to time it suited for the context.

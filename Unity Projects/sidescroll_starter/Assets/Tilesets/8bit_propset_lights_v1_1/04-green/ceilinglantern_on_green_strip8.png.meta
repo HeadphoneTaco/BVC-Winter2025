@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 4e7d2611121b80249938d9b028fe6e00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2325876675556296026
+    second: ceilinglantern_on_green_strip8_0
+  - first:
+      213: -821818500197696588
+    second: ceilinglantern_on_green_strip8_1
+  - first:
+      213: 3039061184578773078
+    second: ceilinglantern_on_green_strip8_2
+  - first:
+      213: 3194100760212637618
+    second: ceilinglantern_on_green_strip8_3
+  - first:
+      213: -9195485679923547107
+    second: ceilinglantern_on_green_strip8_4
+  - first:
+      213: -471790992328799065
+    second: ceilinglantern_on_green_strip8_5
+  - first:
+      213: 8891188915057107980
+    second: ceilinglantern_on_green_strip8_6
+  - first:
+      213: 403417338569249288
+    second: ceilinglantern_on_green_strip8_7
+  - first:
+      213: -2122036015256344211
+    second: ceilinglantern_on_green_strip8_8
+  - first:
+      213: 7767170069712526974
+    second: ceilinglantern_on_green_strip8_9
+  - first:
+      213: 8465265565907963018
+    second: ceilinglantern_on_green_strip8_10
+  - first:
+      213: 7596403674430512731
+    second: ceilinglantern_on_green_strip8_11
+  - first:
+      213: 24424587656098600
+    second: ceilinglantern_on_green_strip8_12
+  - first:
+      213: -2848105642133618500
+    second: ceilinglantern_on_green_strip8_13
+  - first:
+      213: -6033849883070547385
+    second: ceilinglantern_on_green_strip8_14
+  - first:
+      213: -4771511288893478567
+    second: ceilinglantern_on_green_strip8_15
+  - first:
+      213: -5272247293907688792
+    second: ceilinglantern_on_green_strip8_16
+  - first:
+      213: -3182424748492154019
+    second: ceilinglantern_on_green_strip8_17
+  - first:
+      213: 4437181070408603127
+    second: ceilinglantern_on_green_strip8_18
+  - first:
+      213: 5936017498456800255
+    second: ceilinglantern_on_green_strip8_19
+  - first:
+      213: 5904963050934264706
+    second: ceilinglantern_on_green_strip8_20
+  - first:
+      213: 4637223446052954640
+    second: ceilinglantern_on_green_strip8_21
+  - first:
+      213: -8196078055935067279
+    second: ceilinglantern_on_green_strip8_22
+  - first:
+      213: -524739803321128968
+    second: ceilinglantern_on_green_strip8_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aab9129c73d8bfd0800000000000000
+      internalID: -2325876675556296026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb3fd1ad605894f0800000000000000
+      internalID: -821818500197696588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650ee75bb0aec2a20800000000000000
+      internalID: 3039061184578773078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b78745e7b9b35c20800000000000000
+      internalID: 3194100760212637618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_4
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1437fe6e72136080800000000000000
+      internalID: -9195485679923547107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac4306979cd379f0800000000000000
+      internalID: -471790992328799065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04aed0f539d36b70800000000000000
+      internalID: 8891188915057107980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80257a99ee9399500800000000000000
+      internalID: 403417338569249288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d696f06bc730d82e0800000000000000
+      internalID: -2122036015256344211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ed243b6088acb60800000000000000
+      internalID: 7767170069712526974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c4a496e2aaa7570800000000000000
+      internalID: 8465265565907963018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e17e8f4e8db6960800000000000000
+      internalID: 7596403674430512731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823f6077806c65000800000000000000
+      internalID: 24424587656098600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb007d5220f7978d0800000000000000
+      internalID: -2848105642133618500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 38
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a3c830085734ca0800000000000000
+      internalID: -6033849883070547385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959ecb763cf28cdb0800000000000000
+      internalID: -4771511288893478567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a22e9e050735d6b0800000000000000
+      internalID: -5272247293907688792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b96bd6d81c5d3d0800000000000000
+      internalID: -3182424748492154019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5dac1aca8049d30800000000000000
+      internalID: 4437181070408603127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb3508e678f06250800000000000000
+      internalID: 5936017498456800255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2836eb6eb94a2f150800000000000000
+      internalID: 5904963050934264706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0126916b72aba5040800000000000000
+      internalID: 4637223446052954640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bbd9cce6ea14e80800000000000000
+      internalID: -8196078055935067279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceilinglantern_on_green_strip8_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f72987ddefb7b8f0800000000000000
+      internalID: -524739803321128968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
