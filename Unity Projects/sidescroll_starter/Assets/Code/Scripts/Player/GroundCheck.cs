@@ -33,16 +33,32 @@ namespace Code.Scripts.Player
             _timeSinceDelay = Time.time;
             IsGrounded = false;
         }
-        void Start()
-        {
-            
-        }
+
 
         void Update()
         {
             if (Time.time - _timeSinceDelay < _groundCheckDelay)
                 return;
-            IsGrounded = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer) || Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer);
+            IsGrounded = Physics2D.Raycast(transform.position + _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer) ||
+                         Physics2D.Raycast(transform.position - _colliderOffset, Vector2.down, _groundCheckDistance, _groundLayer);
+
+            Vector3 startPos = transform.position + _colliderOffset;
+            Vector3 endPos = Vector2.down * _groundCheckDistance;
+
+            endPos += startPos;
+            
+            Debug.DrawLine(startPos, endPos, Color.red);
+            
+            startPos = transform.position - _colliderOffset;
+            endPos = Vector2.down * _groundCheckDistance;
+
+            endPos += startPos;
+            
+            Debug.DrawLine(startPos, endPos, Color.green);
+
+
         }
+
+
     }
 }
