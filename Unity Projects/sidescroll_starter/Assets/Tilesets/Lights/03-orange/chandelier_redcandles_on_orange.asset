@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: chandelier_redcandles_on_orange
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: -6489957352555169653, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: 1620379459, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: 1748176865, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: 1960937211, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: -1873701800, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: 670409062, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: 1561571915, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
+  - {fileID: -1157429790, guid: 373b8ce0a8be95342b24b86587644135, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

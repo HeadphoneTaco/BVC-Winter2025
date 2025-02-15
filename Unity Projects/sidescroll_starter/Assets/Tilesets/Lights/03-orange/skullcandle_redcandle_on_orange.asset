@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: skullcandle_redcandle_on_orange
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 340829000638482808, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -8373284212765155543, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -6786417147452765846, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -4194152305733805151, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -4007355467192429089, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -3091117311940265665, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: -1831229540546192259, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
+  - {fileID: 8084492325541808844, guid: 050beb03c2164b04ea248f2ca5d5a339, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

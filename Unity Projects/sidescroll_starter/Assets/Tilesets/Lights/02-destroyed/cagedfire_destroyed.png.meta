@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cagedfire_destroyed_0: 5429268530744260901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

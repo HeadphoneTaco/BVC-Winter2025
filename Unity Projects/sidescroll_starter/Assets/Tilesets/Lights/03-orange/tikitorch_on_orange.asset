@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: tikitorch_on_orange
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: 3725188468449035344, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: -8891913094596901324, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: 1245855348478646902, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: 1577676411328855679, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: -4426737259374307882, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: 2544888063803192363, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: -5624855911990220311, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
+  - {fileID: 192672935312861233, guid: 399508ae970554a4497d6e459c24f3e7, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

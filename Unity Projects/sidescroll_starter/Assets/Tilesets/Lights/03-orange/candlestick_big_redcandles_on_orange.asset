@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: candlestick_big_redcandles_on_orange
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: -562489894, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -1362637503, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -1479199455, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -1519176401, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -168830801, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -1114856829, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -1715175067, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
+  - {fileID: -940268334, guid: a432e723612bb104aa95ed4be1356eef, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

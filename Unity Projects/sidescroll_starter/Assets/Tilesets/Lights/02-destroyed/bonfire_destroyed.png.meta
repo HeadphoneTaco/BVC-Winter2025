@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bonfire_destroyed_0: 7880078884950888560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

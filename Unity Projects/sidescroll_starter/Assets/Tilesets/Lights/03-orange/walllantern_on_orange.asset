@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: walllantern_on_orange
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
+  m_AnimatedSprites:
+  - {fileID: -2525913580260059573, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: 3634192650680737665, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: -8323800107605045778, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: -877083242376022507, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: -491709733101446428, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: 6647755679339922023, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: -2013884377878221080, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
+  - {fileID: 3144330774176093632, guid: a97dfc67af6af5f43b2f6000eee7a1ad, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
   m_AnimationStartTime: 0

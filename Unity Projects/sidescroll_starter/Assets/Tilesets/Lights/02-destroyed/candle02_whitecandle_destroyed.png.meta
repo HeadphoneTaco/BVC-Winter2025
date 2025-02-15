@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      candle02_whitecandle_destroyed_0: -6390601793193842903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

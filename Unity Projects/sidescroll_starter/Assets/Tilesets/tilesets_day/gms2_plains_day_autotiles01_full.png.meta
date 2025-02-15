@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gms2_plains_day_autotiles01_full_0: 994834330836204978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
