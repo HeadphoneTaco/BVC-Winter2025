@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,10 +154,10 @@ TextureImporter:
       name: char_atk_sword_strip4_0
       rect:
         serializedVersion: 2
-        x: 19
+        x: 0
         y: 0
-        width: 22
-        height: 27
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: char_atk_sword_strip4_1
       rect:
         serializedVersion: 2
-        x: 87
+        x: 64
         y: 0
-        width: 41
-        height: 24
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: char_atk_sword_strip4_2
       rect:
         serializedVersion: 2
-        x: 151
+        x: 128
         y: 0
-        width: 36
-        height: 24
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: char_atk_sword_strip4_3
       rect:
         serializedVersion: 2
-        x: 185
-        y: 11
-        width: 8
-        height: 8
+        x: 192
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,33 +238,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: char_atk_sword_strip4_4
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 0
-        width: 36
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9aaf6e9dfef97bc50800000000000000
-      internalID: 6680984424729213609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 773e3580ef4b566468f294fc932f4d96
     internalID: 0
     vertices: []
     indices: 
@@ -273,7 +251,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      char_atk_sword_strip4_0: -5289835845748827369
+      char_atk_sword_strip4_1: -8293774977603154072
+      char_atk_sword_strip4_2: 9055148753025589311
+      char_atk_sword_strip4_3: -4424484472438632889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
