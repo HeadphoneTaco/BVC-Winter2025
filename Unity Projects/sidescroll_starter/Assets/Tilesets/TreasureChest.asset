@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
   m_Name: TreasureChest
   m_EditorClassIdentifier: 
-  m_AnimatedSprites: []
-  m_MinSpeed: 1
-  m_MaxSpeed: 1
+  m_AnimatedSprites:
+  - {fileID: 5122021237604276513, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: 6136025170173884327, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: -8895025823218609664, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: -3841170388537177460, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: -1451258595329193559, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: -1370411772462129530, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: 3893100855771243542, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  - {fileID: -2167293052579443135, guid: 4f6dc70ff0669964d947f1f793df90f7, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
