@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -160,10 +160,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 160
+        x: 16
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 143
-        width: 30
-        height: 17
+        x: 64
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,7 +205,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 127
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -226,10 +226,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_3
       rect:
         serializedVersion: 2
-        x: 143
-        y: 143
-        width: 65
-        height: 17
+        x: 144
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 80
-        height: 128
+        x: 160
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_5
       rect:
         serializedVersion: 2
-        x: 99
-        y: 127
-        width: 10
-        height: 10
+        x: 176
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: plains_day_tileset01_16x16_6
       rect:
         serializedVersion: 2
-        x: 143
-        y: 0
-        width: 65
-        height: 108
+        x: 192
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,11 +310,913 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91b0fa14ecaa6a4fa22069b7812237e
+      internalID: 14468441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f85c7c87e945141a3706aa9d7d9beb
+      internalID: 1030186983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a95033df5520419e4d243115cf75d
+      internalID: -593096285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2fc6ba14cffc448104893ef18947b
+      internalID: -1285041193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d272059ba5a14e4c84010813a7d50cd
+      internalID: 1189029443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d28cceec92cd44cb20b05caa4203e3
+      internalID: -514710936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffffcaf549e29b44b47962f880d5e19
+      internalID: -1157207184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4d1794db1603f4aa3ba650cc220078
+      internalID: 1214872661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e217c6c6e5eb45488f372d62ab334e7
+      internalID: -238803197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78110df2fdaa98241922b77194f77255
+      internalID: -1746924504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd32c48eb01d474a847073151f849ae
+      internalID: 1568122883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0df674b3cb11424698a730d2c270ee4
+      internalID: 2100548163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19fe9e4dbcdbba479a2a07ef150c62c
+      internalID: -1004577514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bff0791f2ee2c4383ae032f0a60673
+      internalID: 1307621654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23349c1446e29ee4a9f0eba64ab4e15b
+      internalID: -1572176200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0147445b8b43a84a967fc6f2525b81c
+      internalID: -1389939342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634b9e49ec1ba164193e0a00b9cc9154
+      internalID: 1685874614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c646287beed878a4c815119d2dcfbd82
+      internalID: -1994269316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b709af79af48a47a3e17cb67d39eb9
+      internalID: 1712394419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e518ed825bb9c4d8daad736f3a6542
+      internalID: 894036145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1631810551ab14e4ea70c0928593f4df
+      internalID: -2133422746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f650a06f5c87f4b4b8afabb335e99f48
+      internalID: -575217102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdd36e9baf2c94448b522d310e11616
+      internalID: 54399112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d6c2fba5b577547971a39f2ba03c21
+      internalID: -184967388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1dd92764a89cd48b413281b7721c2f
+      internalID: 1632580617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf33a6418173e947badd7d379ab039e
+      internalID: 1389224905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec722765a3330ad488755ae9ff52ab89
+      internalID: -1807892805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e82006c929a9ab46b8e3be994b541ca
+      internalID: -743067282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb66669e4f53fe469ccec4740eea8ee
+      internalID: 75518989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42680096070ec27448daf9b7598c94e2
+      internalID: -1422818299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa2f4a9c64f094b88f2797c00dd883
+      internalID: -357438893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 78
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0befe5919359eff47af73f24ae648b10
+      internalID: 183119360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bfeff06a4d0de4493e1222cecc9724
+      internalID: 1514183474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_76
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553fc0acca60390478545d964fcb1c59
+      internalID: -1142479566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfffd2fde0f8f1a4eb4ef59beb83de8e
+      internalID: -1001641558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4182cc3bfc0b86341a2c7937e7fcf262
+      internalID: -585995544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_86
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 64
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8632718ce892ad244bf4db08adb9c722
+      internalID: 1646049448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dc648bc4df1534a8aea4c18c26ea27
+      internalID: -788636053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c933c1302863c428950d7e074fff35
+      internalID: -589074092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fca1d743fb0764f84d3fa9772b2be2
+      internalID: 1804306599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plains_day_tileset01_16x16_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26453c87e6e956a4785b0333e63df718
+      internalID: 724854985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9b7c4e236ec6e3a4086a6e38fa1809a9
     internalID: 0
     vertices: []
     indices: 
@@ -323,7 +1225,104 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plains_day_tileset01_16x16_0: -8405410989020492829
+      plains_day_tileset01_16x16_1: 509832426680579979
+      plains_day_tileset01_16x16_10: -1285041193
+      plains_day_tileset01_16x16_11: 1189029443
+      plains_day_tileset01_16x16_12: -514710936
+      plains_day_tileset01_16x16_13: -1157207184
+      plains_day_tileset01_16x16_14: 1214872661
+      plains_day_tileset01_16x16_15: -238803197
+      plains_day_tileset01_16x16_16: -1746924504
+      plains_day_tileset01_16x16_17: 1568122883
+      plains_day_tileset01_16x16_18: -2066197469
+      plains_day_tileset01_16x16_19: 1037024734
+      plains_day_tileset01_16x16_2: 8804162490490371260
+      plains_day_tileset01_16x16_20: 2100548163
+      plains_day_tileset01_16x16_21: -1004577514
+      plains_day_tileset01_16x16_22: 1307621654
+      plains_day_tileset01_16x16_23: -1572176200
+      plains_day_tileset01_16x16_24: 801815934
+      plains_day_tileset01_16x16_25: -371235964
+      plains_day_tileset01_16x16_26: -771612690
+      plains_day_tileset01_16x16_27: -499655969
+      plains_day_tileset01_16x16_28: -2123876474
+      plains_day_tileset01_16x16_29: -1389939342
+      plains_day_tileset01_16x16_3: -3312077915175942624
+      plains_day_tileset01_16x16_30: 1685874614
+      plains_day_tileset01_16x16_31: -1994269316
+      plains_day_tileset01_16x16_32: 1712394419
+      plains_day_tileset01_16x16_33: 1395628730
+      plains_day_tileset01_16x16_34: 2031421585
+      plains_day_tileset01_16x16_35: -1944499319
+      plains_day_tileset01_16x16_36: 965950592
+      plains_day_tileset01_16x16_37: -619999643
+      plains_day_tileset01_16x16_38: 894036145
+      plains_day_tileset01_16x16_39: -2133422746
+      plains_day_tileset01_16x16_4: -4158084202979154373
+      plains_day_tileset01_16x16_40: -575217102
+      plains_day_tileset01_16x16_41: 54399112
+      plains_day_tileset01_16x16_42: 1286373030
+      plains_day_tileset01_16x16_43: 1202439286
+      plains_day_tileset01_16x16_44: 2137345535
+      plains_day_tileset01_16x16_45: -495859917
+      plains_day_tileset01_16x16_46: 1652922392
+      plains_day_tileset01_16x16_47: -805444344
+      plains_day_tileset01_16x16_48: -1276978399
+      plains_day_tileset01_16x16_49: -184967388
+      plains_day_tileset01_16x16_5: 2715279973381458599
+      plains_day_tileset01_16x16_50: 1632580617
+      plains_day_tileset01_16x16_51: 1389224905
+      plains_day_tileset01_16x16_52: -1807892805
+      plains_day_tileset01_16x16_53: -152781840
+      plains_day_tileset01_16x16_54: 92610220
+      plains_day_tileset01_16x16_55: 2085528838
+      plains_day_tileset01_16x16_56: 822731618
+      plains_day_tileset01_16x16_57: -811844971
+      plains_day_tileset01_16x16_58: 867706314
+      plains_day_tileset01_16x16_59: 1203263568
+      plains_day_tileset01_16x16_6: -8543023290264020368
+      plains_day_tileset01_16x16_60: 2119256089
+      plains_day_tileset01_16x16_61: 768576043
+      plains_day_tileset01_16x16_62: -743067282
+      plains_day_tileset01_16x16_63: 75518989
+      plains_day_tileset01_16x16_64: -1422818299
+      plains_day_tileset01_16x16_65: -357438893
+      plains_day_tileset01_16x16_66: 2105294292
+      plains_day_tileset01_16x16_67: 1283644458
+      plains_day_tileset01_16x16_68: 183119360
+      plains_day_tileset01_16x16_69: -64042126
+      plains_day_tileset01_16x16_7: 14468441
+      plains_day_tileset01_16x16_70: 1359797897
+      plains_day_tileset01_16x16_71: -961083240
+      plains_day_tileset01_16x16_72: 843362437
+      plains_day_tileset01_16x16_73: 1373937992
+      plains_day_tileset01_16x16_74: 1714490915
+      plains_day_tileset01_16x16_75: 1514183474
+      plains_day_tileset01_16x16_76: -1142479566
+      plains_day_tileset01_16x16_77: -1001641558
+      plains_day_tileset01_16x16_78: -585995544
+      plains_day_tileset01_16x16_79: 1695592969
+      plains_day_tileset01_16x16_8: 1030186983
+      plains_day_tileset01_16x16_80: -2076778868
+      plains_day_tileset01_16x16_81: 1342016325
+      plains_day_tileset01_16x16_82: 89402899
+      plains_day_tileset01_16x16_83: 1391282317
+      plains_day_tileset01_16x16_84: 1085749595
+      plains_day_tileset01_16x16_85: -873997141
+      plains_day_tileset01_16x16_86: 1646049448
+      plains_day_tileset01_16x16_87: -661085335
+      plains_day_tileset01_16x16_88: -788636053
+      plains_day_tileset01_16x16_89: -589074092
+      plains_day_tileset01_16x16_9: -593096285
+      plains_day_tileset01_16x16_90: 1804306599
+      plains_day_tileset01_16x16_91: 724854985
+      plains_day_tileset01_16x16_92: 2055698405
+      plains_day_tileset01_16x16_93: 1302104130
+      plains_day_tileset01_16x16_94: 1905658642
+      plains_day_tileset01_16x16_95: -1698151876
+      plains_day_tileset01_16x16_96: -922045123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
