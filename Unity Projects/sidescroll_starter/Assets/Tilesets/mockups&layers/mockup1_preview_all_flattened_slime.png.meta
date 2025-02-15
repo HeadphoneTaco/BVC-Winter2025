@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mockup1_preview_all_flattened_slime_0: -3703812136987781208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

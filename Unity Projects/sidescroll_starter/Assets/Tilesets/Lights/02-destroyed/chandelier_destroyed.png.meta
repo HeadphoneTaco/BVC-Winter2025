@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chandelier_destroyed_0: -4868484118642619346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plains_night_tileset_addon01_template_0: -8386848252241465646
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gms2_template_autotiles_0: -606163793666903159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

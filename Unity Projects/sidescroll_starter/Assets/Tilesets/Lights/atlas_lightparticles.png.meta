@@ -448,7 +448,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      atlas_lightparticles_0: 4585623231063794222
+      atlas_lightparticles_1: 7633801581438631049
+      atlas_lightparticles_10: 8437502721033233478
+      atlas_lightparticles_11: 4222302424677386234
+      atlas_lightparticles_2: 33025079996274417
+      atlas_lightparticles_3: -2015436226714624990
+      atlas_lightparticles_4: 1816372083254701610
+      atlas_lightparticles_5: 5922348965180037576
+      atlas_lightparticles_6: 1795637565385221918
+      atlas_lightparticles_7: 5284546985281328611
+      atlas_lightparticles_8: 7376857595737276160
+      atlas_lightparticles_9: 5676546702010750738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

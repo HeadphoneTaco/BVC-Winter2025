@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ceilinglantern_destroyed_0: -1932123818507970826
+      ceilinglantern_destroyed_1: -1962713700136636288
+      ceilinglantern_destroyed_2: 5305770880212946887
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

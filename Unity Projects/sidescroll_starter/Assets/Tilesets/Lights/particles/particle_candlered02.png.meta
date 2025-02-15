@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      particle_candlered02_0: -5364845457092662819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      streetlantern_destroyed_0: 1313822204497313269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

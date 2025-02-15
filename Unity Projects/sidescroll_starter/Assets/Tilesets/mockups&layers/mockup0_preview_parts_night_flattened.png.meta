@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mockup0_preview_parts_night_flattened_0: -5729703571552200803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

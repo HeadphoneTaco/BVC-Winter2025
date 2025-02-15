@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walllantern_destroyed_0: 2483616531355269840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

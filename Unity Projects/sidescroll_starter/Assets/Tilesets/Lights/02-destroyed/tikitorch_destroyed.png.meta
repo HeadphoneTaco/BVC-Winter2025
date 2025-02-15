@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tikitorch_destroyed_0: 6320669756122709852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

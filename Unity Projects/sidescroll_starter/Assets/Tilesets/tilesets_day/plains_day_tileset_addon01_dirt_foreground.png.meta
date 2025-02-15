@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plains_day_tileset_addon01_dirt_foreground_0: -4383737737550394625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

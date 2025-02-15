@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      candlestick_small_destroyed_0: 3022672682363677039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

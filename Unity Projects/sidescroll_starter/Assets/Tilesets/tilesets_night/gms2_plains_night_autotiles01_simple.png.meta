@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gms2_plains_night_autotiles01_simple_0: -4814010952388601484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

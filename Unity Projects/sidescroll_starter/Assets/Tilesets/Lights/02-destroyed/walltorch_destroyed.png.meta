@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      walltorch_destroyed_0: 5997156767313057544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
