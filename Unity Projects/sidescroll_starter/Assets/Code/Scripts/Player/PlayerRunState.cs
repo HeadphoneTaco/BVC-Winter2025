@@ -18,14 +18,6 @@ namespace Code.Scripts.Player
             _player.EventData.HandlePlayerRuns(_player);
                 
         }
-        public override void Update()
-        {
-            base.Update();
-        }
-        public override void HandleJump()
-        {
-            base.HandleJump();
-        }
         public override void FixedUpdate()
         {
             base.FixedUpdate();

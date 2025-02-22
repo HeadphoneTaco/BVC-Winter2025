@@ -10,14 +10,11 @@ namespace Code.Scripts.Player
         [SerializeField] private Vector3 _colliderOffset;
         [SerializeField] private LayerMask _groundLayer;
         public event Action<bool> GroundChanged;
-        private bool _isGrounded = false;
+        private bool _isGrounded;
         private float _timeSinceDelay;
         public bool IsGrounded
         {
-            get
-            {
-                return _isGrounded;
-            }
+            get => _isGrounded;
             private set
             {
                 if (value != _isGrounded)
@@ -27,14 +24,11 @@ namespace Code.Scripts.Player
                 }
             }
         }
-
         public void DelayGrounding()
         {
             _timeSinceDelay = Time.time;
             IsGrounded = false;
         }
-
-
         void Update()
         {
             if (Time.time - _timeSinceDelay < _groundCheckDelay)
@@ -55,10 +49,6 @@ namespace Code.Scripts.Player
             endPos += startPos;
             
             Debug.DrawLine(startPos, endPos, Color.green);
-
-
         }
-
-
     }
 }

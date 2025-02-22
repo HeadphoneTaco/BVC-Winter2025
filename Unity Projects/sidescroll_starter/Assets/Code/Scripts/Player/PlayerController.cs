@@ -1,9 +1,5 @@
-﻿using System;
-using Code.Scripts.StateMachine;
-using UnityEditor.Animations;
+﻿using Code.Scripts.StateMachine;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 using State = Code.Scripts.StateMachine.State;
 
 namespace Code.Scripts.Player
@@ -48,10 +44,6 @@ namespace Code.Scripts.Player
 
         #endregion
 
-        public override void ChangeState(State newState)
-        {
-            base.ChangeState(newState);
-        }
 
         public void ChangeState(PlayerStates newState)
         {

@@ -20,16 +20,6 @@ namespace Code.Scripts.Player
                 
             _player.EventData.HandlePlayerIdles(_player);
         }
-        public override void Update()
-        {
-            base.Update();
-        }
-
-        public override void HandleJump()
-        {
-            base.HandleJump();
-        }
-
         public override void FixedUpdate()
         {
             base.FixedUpdate();
