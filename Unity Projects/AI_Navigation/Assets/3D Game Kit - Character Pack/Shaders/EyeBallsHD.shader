@@ -6,7 +6,7 @@ Shader "Custom/EyeBallsHD" {
 		_InternalColor ("Internal Color", Color) = (1,1,1,1)
 		_EmissionColor ("Emission Color", Color) = (1,1,1,1)
 		_EyeColor ("Iris Color", Color) = (0,0,1,0)
-		_ScleraColor ("Scolera Color", Color) = (1,1,1,0)
+		_ScleraColor ("Sclera Color", Color) = (1,1,1,0)
 		[Space]
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
 		_BumpMap ("Normals", 2D) = "bump" {}
