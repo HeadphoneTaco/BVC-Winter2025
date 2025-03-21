@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
@@ -20,10 +21,15 @@ namespace Unity.AI.Navigation.Samples
     {
         public OffMeshLinkMoveMethod m_Method = OffMeshLinkMoveMethod.Parabola;
         public AnimationCurve m_Curve = new AnimationCurve();
-
+        private Animator m_Animator;
+        private NavMeshAgent agent;
+        
         IEnumerator Start()
         {
-            NavMeshAgent agent = GetComponent<NavMeshAgent>();
+            m_Animator = GetComponent<Animator>();
+            agent = GetComponent<NavMeshAgent>();
+             
+            
             agent.autoTraverseOffMeshLink = false;
             while (true)
             {
@@ -32,7 +38,7 @@ namespace Unity.AI.Navigation.Samples
                     if (m_Method == OffMeshLinkMoveMethod.NormalSpeed)
                         yield return StartCoroutine(NormalSpeed(agent));
                     else if (m_Method == OffMeshLinkMoveMethod.Parabola)
-                        yield return StartCoroutine(Parabola(agent, 2.0f, 0.5f));
+                        yield return StartCoroutine(Parabola(agent, 1.0f, 0.5f));
                     else if (m_Method == OffMeshLinkMoveMethod.Curve)
                         yield return StartCoroutine(Curve(agent, 0.5f));
                     agent.CompleteOffMeshLink();
@@ -62,6 +68,8 @@ namespace Unity.AI.Navigation.Samples
             float normalizedTime = 0.0f;
             while (normalizedTime < 1.0f)
             {
+                m_Animator.SetBool("InJumpingState", true);
+                
                 float yOffset = height * 4.0f * (normalizedTime - normalizedTime * normalizedTime);
                 agent.transform.position = Vector3.Lerp(startPos, endPos, normalizedTime) + yOffset * Vector3.up;
                 normalizedTime += Time.deltaTime / duration;
@@ -81,6 +89,14 @@ namespace Unity.AI.Navigation.Samples
                 agent.transform.position = Vector3.Lerp(startPos, endPos, normalizedTime) + yOffset * Vector3.up;
                 normalizedTime += Time.deltaTime / duration;
                 yield return null;
+            }
+        }
+
+        private void Update()
+        {
+            if (agent.isOnOffMeshLink == false)
+            {
+                m_Animator.SetBool("InJumpingState", false);
             }
         }
     }
